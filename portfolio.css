@@ -685,7 +685,10 @@ a:hover {
         }
     }
 
-  
+.arrows {
+    width: 30px;
+    padding-left: 10px;
+  }
   
   .event {
     height: auto;
