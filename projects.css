@@ -189,8 +189,7 @@ a:hover {
 
 .col-md-3 {
     vertical-align: middle;
-    align-content: center;
-
+    margin: auto;
 
 }
 
@@ -209,12 +208,10 @@ a:hover {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.col {
+  .col {
     align-content: center;
     float: left;
-    vertical-align: middle;
-    padding-top: 30px;
-
+    vertical-align: center;
     
   }
   
@@ -395,16 +392,14 @@ a:hover {
     float: right;
     overflow: visible;
     animation-name: slidein;
-    animation-fill-mode:forwards;
     animation-duration: 5s ;
 
 }
 
   @keyframes slidein {
-    0% {background-color: #6E8C9E;}
-    25% {background-color: #E69983}
-    50% {background-color: #FFD17A;}
-    75% {background-color: #FFF5EB;}
+    from {background-color: #6E8C9E;}
+    to {background-color: rgb(230, 153, 131);}
+    to {background-color: #FFD17A;}
   }
 
 
@@ -791,11 +786,11 @@ a:hover {
       width: 70%;
   }
     
-@media (max-width: 629px) {
+      @media only screen and (max-width: 629px) {
   
-    .footerimg {
-        width: 20px !important;
-    }
+        .footerimg {
+          width: 20%;
+        }
     }
 
 .arrows {
@@ -945,9 +940,6 @@ a:hover {
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
-  }
-  .footerimg {
-      width: 10%;
   }
   }
   .social-icons
