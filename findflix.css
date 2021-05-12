@@ -37,6 +37,28 @@ html {
     margin-left: 0;
   }
 
+
+
+  p.time {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter !important;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+  }
+
+  p.time2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold !important;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+  }
+
+
+
+
+
   h6 {
       font-family: 'Roboto', sans-serif, thin;
       font-size: size 14;
@@ -45,11 +67,19 @@ html {
       color: #FFF5EB;
       margin-left: 20px;
       margin-right: 20px;
+      font-weight: 200;
 
   }
   h4 {
-      font-size: 18px;
+      font-size: 20px;
       font-family: 'Abril FatFace', sans-serif;
+      padding-bottom: 80px;
+      letter-spacing: .2rem;
+  }
+
+
+  h4.footer {
+      font-size: 18px;
   }
   
   h1 {
@@ -178,6 +208,18 @@ html {
   
   }
 
+
+
+  .row.final {
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
   .row-header {
     display: flex;
     flex-wrap: wrap;
@@ -295,6 +337,18 @@ a:hover {
 
 }
 
+.col-md-3.vertical {
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    border-right: 1px solid black;
+
+
+}
+
+
+
+
 .col-md-6.jumbo{
     float: left;
 }
@@ -360,8 +414,8 @@ a:hover {
     margin: auto;
     overflow:hidden;
     vertical-align: middle;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   hr {
@@ -836,6 +890,25 @@ a:hover {
 
   }
 
+
+
+  img.proto {
+      width: 200px;
+      align-content: center;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+
+  img.role {
+      width: 40%;
+  }
+
+
+  img.tools {
+      width: 200px;
+  }
+
   img.NSA {
       width: 100%;
   }
@@ -909,8 +982,9 @@ a:hover {
     }
 
 .arrows {
-    width: 30px;
+    width: 60px;
     padding-left: 10px;
+    vertical-align: middle;
   }
   
   .event {
@@ -1151,5 +1225,10 @@ a:hover {
     font-weight:600
   }
   }
+
+
+
+
+  
   
   
